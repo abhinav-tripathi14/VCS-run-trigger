@@ -37,7 +37,6 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
-
 resource "aws_cloudwatch_metric_alarm" "foobar" {
   alarm_name                = "terraform-test-memory"
   comparison_operator       = "GreaterThanOrEqualToThreshold"
