@@ -49,5 +49,4 @@ resource "aws_cloudwatch_metric_alarm" "foobar" {
   statistic                 = "Average"
   threshold                 = 50
   alarm_description         = "This metric monitors memory"
-  
 }
