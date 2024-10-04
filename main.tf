@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "Test-Abhinav"
+    organization = "Test-ORG2"
 
     workspaces {
       name = "VCS-Workspace"
